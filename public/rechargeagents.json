@@ -1,0 +1,68 @@
+[
+    {
+      "_id": "6415d82e5f91290f43937a8c",
+      "username": 0,
+      "email": "xyz@hotmail.com",
+      "name": "Kawsar Khan",
+      "balance": "$2,996.33",
+      "phone": "+1 (862) 571-2097",
+      "coins": 8625,
+      "address": "136 Montague Street, Norwood, Virgin Islands, 3789",
+      "status": "active"
+    },
+    {
+      "_id": "6415d82e3739dc5f7f441df6",
+      "username": 1,
+      "email": "xyz@hotmail.com",
+      "name": "Kawsar Khan",
+      "balance": "$2,836.42",
+      "phone": "+1 (959) 438-2651",
+      "coins": 5786,
+      "address": "801 Beaumont Street, Durham, California, 8498",
+      "status": "active"
+    },
+    {
+      "_id": "6415d82edd9531062aa13642",
+      "username": 2,
+      "email": "xyz@hotmail.com",
+      "name": "Kawsar Khan",
+      "balance": "$2,261.69",
+      "phone": "+1 (894) 437-3471",
+      "coins": 6876,
+      "address": "378 Howard Alley, Spelter, Georgia, 9433",
+      "status": "active"
+    },
+    {
+      "_id": "6415d82e7c23f744c289cb90",
+      "username": 3,
+      "email": "xyz@hotmail.com",
+      "name": "Kawsar Khan",
+      "balance": "$2,596.24",
+      "phone": "+1 (822) 422-2565",
+      "coins": 8887,
+      "address": "283 Woodruff Avenue, Ticonderoga, Rhode Island, 7213",
+      "status": "active"
+    },
+    {
+      "_id": "6415d82eb682267a018419f2",
+      "username": 4,
+      "email": "xyz@hotmail.com",
+      "name": "Kawsar Khan",
+      "balance": "$1,144.56",
+      "phone": "+1 (833) 467-3135",
+      "coins": 292,
+      "address": "730 Micieli Place, Bangor, Virginia, 3826",
+      "status": "active"
+    },
+    {
+      "_id": "6415d82e45b6bfbbb278daac",
+      "username": 5,
+      "email": "xyz@hotmail.com",
+      "name": "Kawsar Khan",
+      "balance": "$1,806.49",
+      "phone": "+1 (815) 545-3652",
+      "coins": 9543,
+      "address": "331 Rogers Avenue, Camptown, Indiana, 1787",
+      "status": "active"
+    }
+  ]

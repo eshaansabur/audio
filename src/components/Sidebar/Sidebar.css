@@ -1,0 +1,45 @@
+.sidebar{
+    background-color: rgba(45, 90, 86, 0.7);
+    height: calc(110vh - 50px);
+    position: sticky;
+    top: 50px;
+    margin-left: 0px;
+}
+.itemslisting{
+    list-style: none;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+.item{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+}
+.list-group-item{
+    cursor: pointer;
+}
+.products{
+    text-decoration: none;
+}
+.dark{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: aqua;
+}
+.sub{
+    background-color: #6c8b88;
+}
+.sub-item-menu{
+    list-style: none;
+}
+.sub-item-menu li{
+    margin-bottom: 5px;
+}

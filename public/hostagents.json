@@ -1,0 +1,57 @@
+[
+    {
+      "_id": "6415dd41b10a234cc52b70b6",
+      "username": 0,
+      "email": "xyz@hotmail.com",
+      "name": "Kawsar Khan",
+      "commission": "$1,031.48",
+      "phone": "+1 (908) 577-2443",
+      "hosts": 548,
+      "address": "698 Boerum Street, Bison, New Mexico, 3768",
+      "status": "active"
+    },
+    {
+      "_id": "6415dd410b54daf933319bfe",
+      "username": 1,
+      "email": "xyz@hotmail.com",
+      "name": "Kawsar Khan",
+      "commission": "$1,831.66",
+      "phone": "+1 (832) 476-2193",
+      "hosts": 540,
+      "address": "922 Colonial Road, Grenelefe, Washington, 2137",
+      "status": "active"
+    },
+    {
+      "_id": "6415dd415850d9d851723082",
+      "username": 2,
+      "email": "xyz@hotmail.com",
+      "name": "Kawsar Khan",
+      "commission": "$2,372.29",
+      "phone": "+1 (963) 514-2696",
+      "hosts": 94,
+      "address": "624 Grove Street, Waterford, Oregon, 4600",
+      "status": "active"
+    },
+    {
+      "_id": "6415dd41db12fc5b59d67ebd",
+      "username": 3,
+      "email": "xyz@hotmail.com",
+      "name": "Kawsar Khan",
+      "commission": "$3,659.17",
+      "phone": "+1 (820) 596-3658",
+      "hosts": 535,
+      "address": "262 Gatling Place, Vicksburg, Wyoming, 717",
+      "status": "active"
+    },
+    {
+      "_id": "6415dd411157ba2d419259b1",
+      "username": 4,
+      "email": "xyz@hotmail.com",
+      "name": "Kawsar Khan",
+      "commission": "$1,929.91",
+      "phone": "+1 (821) 540-2947",
+      "hosts": 673,
+      "address": "977 Johnson Street, Crawfordsville, Maryland, 1554",
+      "status": "active"
+    }
+  ]
