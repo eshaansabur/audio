@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import BarChartIcon from '@mui/icons-material/BarChart';
 import WidgetsIcon from '@mui/icons-material/Widgets';
 import './Sidebar.css';
@@ -9,14 +9,29 @@ import HailIcon from '@mui/icons-material/Hail';
 import BlockIcon from '@mui/icons-material/Block';
 import ListAltIcon from '@mui/icons-material/ListAlt';
 import { Link } from 'react-router-dom';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import { KeyboardArrowUp } from '@mui/icons-material';
 const Sidebar = () => {
+    let [toggler, setToggler] = useState(false);
+    let [toggler2, setToggler2] = useState(false);
+
+    const handleToggler1 = () =>{
+        setToggler(toggler => !toggler);
+    }
+    const handleToggler2 = () =>{
+        setToggler2(toggler2 => !toggler2);
+    }
+    let toggleClassCheck = toggler? <KeyboardArrowUpIcon></KeyboardArrowUpIcon> : <KeyboardArrowDownIcon></KeyboardArrowDownIcon>;
+    let toggleClassCheck2 = toggler2? <KeyboardArrowUpIcon></KeyboardArrowUpIcon> : <KeyboardArrowDownIcon></KeyboardArrowDownIcon>;
+
     return (
         <div className="col-2 col-md-2 col-lg-2 sidebar">
                 <div className="sidebarmenu">
                     <div className="sidebarlist">
                     <ul className='itemslisting'>
                     <li className='item'>
-                    <a class="products text-white" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"><PeopleOutlineIcon></PeopleOutlineIcon> Users</a>
+                    <a onClick={handleToggler1} class="products text-white" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2"><PeopleOutlineIcon></PeopleOutlineIcon> Users {toggleClassCheck}</a>
                     <div class="row">
                         <div class="col">
                             <div class="collapse multi-collapse mt-3" id="multiCollapseExample2">
@@ -43,7 +58,7 @@ const Sidebar = () => {
                     <Link to='/recharge'><AttachMoneyIcon></AttachMoneyIcon> Recharge for Recharge Agent</Link>
                     </li>
                     <li className='item'>
-                    <a class="products text-white" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3"><ListAltIcon></ListAltIcon> Agents List</a>
+                    <a onClick={handleToggler2} class="products text-white" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button" aria-expanded="false" aria-controls="multiCollapseExample3"><ListAltIcon></ListAltIcon> Agents List {toggleClassCheck2}</a>
                     <div class="row">
                         <div class="col">
                             <div class="collapse multi-collapse mt-3" id="multiCollapseExample3">
